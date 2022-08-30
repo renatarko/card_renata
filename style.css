@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --color-primary:#4a0376;
+  --color-secundy:rgb(232, 229, 233);
+}
+
+body {
+  background: linear-gradient(1.25turn, #5d4f5fee, #39005c);
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 0px auto;
+width: 100%;
+height: 100vh;
+max-width: 800px;
+}
+
+.box {
+  height: 70%;
+  width: 50%;
+
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 3px rgba(26, 17, 24, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 15px;
+}
+
+.title {
+  color: var(--color-secundy);
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+p {
+  color: var(--color-secundy);
+  font-size: 14px;
+}
+
+img {
+  margin-top: 5px;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  border: 3px solid rgb(232, 229, 233);
+  padding: 4px;
+}
+
+.container-button {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px;
+}
+
+.button {
+  font-family: var(--font-primary);
+  /* background-color: #faf9f9; */
+  width: 250px;
+  text-align: center;
+  box-shadow: 0px 0px 4px 2px rgba(26, 17, 24, 0.2);
+  border: 1px solid var(--color-secundy);
+
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.link {
+  color: var(--color-secundy);
+}
+
+i {
+  font-size: 20px;
+  color: rgb(130, 92, 168);
+  transition: all 0.5s;
+}
+
+.button:hover {
+  background-color: var(--color-secundy);
+  border-color: #39005c;
+  font-weight: 600;
+}
+
+.button:hover .link {
+  color: rgb(64, 16, 112);
+}
+
+.button:hover i {
+  transform: scale(1.3);
+
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex: 1;
+
+  color: var(--color-secundy);
+  justify-content: center;
+  align-items: center;
+}
+
+.text-footer {
+  width: 50%;
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  padding: 2px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.heart {
+  font-size: 15px;
+}
