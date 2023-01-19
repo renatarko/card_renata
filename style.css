@@ -109,9 +109,6 @@ i {
   background-color: var(--color-secundy);
   border-color: #39005c;
   font-weight: 600;
-}
-
-.button:hover .link {
   color: rgb(64, 16, 112);
 }
 
